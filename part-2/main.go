@@ -29,6 +29,9 @@ import (
 // bonus question: ask the person about error handling with goroutines:
 // The current implementation does not handle errors within goroutines. If a goroutine encounters an error, it will silently fail, potentially leading to incomplete or incorrect results.
 
+// bonus question: are there other ways to improve speed and efficiency without implementing concurency?
+// yes using a min heap. Sorting the entire list can be inefficient, especially if the list is large. By using a min-heap, you avoid the need to sort the entire list of word frequencies. Instead, you only keep track of the top k elements, which is much faster.
+
 var excludedWords = map[string]struct{}{
 	"the": {},
 	"and": {},

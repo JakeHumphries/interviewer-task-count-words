@@ -1,0 +1,5 @@
+## Part I
+Given a `.txt` file calculate the frequency of words (how many times a given word appears in the document) and return the top 10 most frequent words.
+
+## Part II
+Introduce concurrency to your solution. 

@@ -1,0 +1,1 @@
+this is some example text with words that exist more than once like text. Text exists multiple times and should be the winner, or will it? lets find out when the program runs.

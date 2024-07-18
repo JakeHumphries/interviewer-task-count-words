@@ -17,7 +17,7 @@ import (
 // Splitting the text: If the text has ( n ) characters, the time complexity of strings.FieldsFunc is ( O(n) ).
 // Iterating over words: If there are ( w ) words, iterating over them is ( O(w) ).
 // Updating the frequency map: Updating the map for each word is ( O(1) ) on average, so for ( w ) words, it is ( O(w) ).
-// Sorting the list: Sorting the list of word frequencies takes ( O(n log n) ), where ( w ) is the number of unique words.
+// Sorting the list: Sorting the list of word frequencies takes ( O(n log n) ), where ( n ) is the number of unique words.
 // i dont know what this makes the overall time complexity....
 
 // - What if we had to exclude specific words?

@@ -14,15 +14,10 @@ import (
 
 // - What would be the time complexity of your solution?
 // - very difficulty to answer because this is slow but here is an attempt:
-// n = number of lines in the file, m = length of each line in the file, k = total number of characters in the entire text, w = total number of words in the text
-// ReadFile: Opening the file: ( O(1) )
-// Reading the file: The file is read line by line. If there are ( n ) lines and each line has ( m ) characters on average, the time complexity is ( O(n times m) ).
-// Appending to strings.Builder: Appending each line to the strings.Builder is also ( O(n times m) ).
-// Splitting the text: If the text has ( k ) characters, the time complexity of strings.FieldsFunc is ( O(k) ).
+// Splitting the text: If the text has ( n ) characters, the time complexity of strings.FieldsFunc is ( O(n) ).
 // Iterating over words: If there are ( w ) words, iterating over them is ( O(w) ).
 // Updating the frequency map: Updating the map for each word is ( O(1) ) on average, so for ( w ) words, it is ( O(w) ).
-// Sorting the list: Sorting the list of word frequencies takes ( O(w log w) ), where ( w ) is the number of unique words.
-// Selecting top words: Selecting the top amount words is ( O(text{amount}) ).
+// Sorting the list: Sorting the list of word frequencies takes ( O(n log n) ), where ( w ) is the number of unique words.
 // i dont know what this makes the overall time complexity....
 
 // - What if we had to exclude specific words?

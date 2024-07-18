@@ -1,4 +1,4 @@
-module github.com/Adarga-Ltd/interviewer-task-count-words
+module github.com/JakeHumphries/interviewer-task-count-words
 
 go 1.22.3
 
